@@ -83,18 +83,15 @@ font-size: 22px;
 .Product-section{
     padding: 40px 20px;
 }
-.banner-title2{
+.Product-section .banner-title2{
    
 width: 1140px;
-height: 138px;
-display: flex;
-flex-direction: row;
+height: 68px;
+text-align: center;
 align-items: center;
-gap: 16;
-
 margin: 16px 0;
 font-weight: 700;
-    font-size: 65px; 
+font-size: 65px; 
 }
 .plants-description{
 width: 888px;
@@ -104,15 +101,25 @@ font-weight: 400;
 text-align: center;
 }
 .flower-card{
-    gap:30px;
-    border: 1px solid ;
-    padding: 15px;
+    gap:30;
+    border: 1px solid # ;
+    padding: 5px;
     border-radius: 5px;
 }
 .btn{
     background-color: orangered;
     color: aliceblue;
     border: none;
+width: 270px;
+height: 50px;
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10;
+padding: 26px 50px 26px 50px;
+margin: 30px 0px;
 }
 .eight-cards{
     display: grid;
@@ -122,4 +129,11 @@ height: 1186.88px;
 left: 150px;
 top: 802px;
 gap: 30px;
+}
+.thoughts {
+Font weight: 400
+Font size: 22pxpx
+Row height: 27px
+Letter spacing: 0%
+Align: Align left
 }
