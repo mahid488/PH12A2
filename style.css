@@ -93,12 +93,14 @@ margin: 16px 0;
 font-weight: 700;
 font-size: 65px; 
 }
+
 .plants-description{
 width: 888px;
 height: 54px;
 font-size: 22px;
 font-weight: 400;
 text-align: center;
+ 
 }
 .flower-card{
     gap:30;
@@ -129,11 +131,47 @@ height: 1186.88px;
 left: 150px;
 top: 802px;
 gap: 30px;
+position: absolute;
+
+
+
 }
-.thoughts {
-Font weight: 400
-Font size: 22pxpx
-Row height: 27px
-Letter spacing: 0%
-Align: Align left
+.flower-lover{
+    
+position: absolute;
+
+left: 150px;
+top: 2100px;
+gap: 80px;
+}
+.lover-right h2{
+    color: rgb(0, 0, 0);
+font-family: Noto Serif;
+font-size: 50px;
+font-weight: 700;
+line-height: 68px;
+letter-spacing: 0%;
+text-align: left;
+}
+ .flower-description{
+color: rgba(0, 0, 0, 0.5);
+font-family: Inter;
+font-size: 22px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0%;
+text-align: left;
+
+position: static;
+width: 540px;
+height: 108px;
+
+}
+.logo{
+    /* trusted-badge 1 */
+position: absolute;
+width: 286px;
+height: 286px;
+left: 377px;
+top: -127px;
 }
