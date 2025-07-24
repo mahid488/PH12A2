@@ -1,0 +1,125 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  -optical-sizing: auto;
+  fontfont-weight: <weight>;
+  font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.noto-serif-fonts{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* shared styles */
+.display-flex{
+    display: flex;
+}
+
+/* header styles */
+
+
+/* nav styles */
+.navbar{
+justify-content: space-between;
+align-items: center;
+
+}
+.nav-items{
+    list-style: none;
+    margin-right: 30px;
+    
+
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 400;
+    
+}
+.color-black{
+    color: black;
+
+}
+.color-gray{
+    color: rgb(137, 135, 161);
+}
+.color-orange{
+    color:rgb(233, 90, 8);
+}
+.color-half-gray{
+    color:rgba(0, 0, 0, 0.5) ;
+}
+.navbar,.banner{
+    max-width:1140px ;
+    margin: 0 auto;
+}
+.banner-content{
+
+width: 1140px;
+height: 461px;
+left: 160px;
+margin: 0 auto;
+
+align-items: flex-end;
+
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 65px;
+}
+.banner-description{
+font-weight: 400;
+font-size: 22px;
+
+}
+.Product-section{
+    padding: 40px 20px;
+}
+.banner-title2{
+   
+width: 1140px;
+height: 138px;
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 16;
+
+margin: 16px 0;
+font-weight: 700;
+    font-size: 65px; 
+}
+.plants-description{
+width: 888px;
+height: 54px;
+font-size: 22px;
+font-weight: 400;
+text-align: center;
+}
+.flower-card{
+    gap:30px;
+    border: 1px solid ;
+    padding: 15px;
+    border-radius: 5px;
+}
+.btn{
+    background-color: orangered;
+    color: aliceblue;
+    border: none;
+}
+.eight-cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 1140px;
+height: 1186.88px;
+left: 150px;
+top: 802px;
+gap: 30px;
+}
